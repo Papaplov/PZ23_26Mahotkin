@@ -1,9 +1,37 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PZ23_26Mahotkin" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Practica23" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.PZ23_26Mahotkin" parent="Base.Theme.PZ23_26Mahotkin" />
+    <style name="Theme.Practica23" parent="Base.Theme.Practica23" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/round</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="CustomButtonyandex" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/round_yandex</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="PinButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/circle_button_bg</item>
+        <item name="backgroundTint">@null</item> <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
